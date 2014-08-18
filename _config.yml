@@ -3,8 +3,8 @@ title: TIL - Today I Learned
 email:
 description: > # this means to ignore newlines until "baseurl:"
   TIL thing I learned today. Written down for me - and you.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://robin-drexler.github.io/til/" # the base hostname & protocol for your site
+baseurl: "/til" # the subpath of your site, e.g. /blog/
+url: "http://robin-drexler.github.io" # the base hostname & protocol for your site
 twitter_username: RobinDrexler
 github_username:  robin-drexler
 
