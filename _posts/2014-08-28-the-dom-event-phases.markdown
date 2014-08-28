@@ -13,7 +13,7 @@ Turns out, it's to control when an event listener gets called during an event di
 
 When an event is dispatched on a DOM element, [there are actually three phases](http://www.w3.org/TR/DOM-Level-3-Events/#event-flow). During the first, the capture phase, all listeners (that make use of the useCapture flag) bound to ancestors of the event target are getting called.
 
-Secondly the event listeners bound to the target it self are being invoked. (Target phase)
+Secondly the event listeners bound to the target itself are being invoked. (Target phase)
 
 Last but not least, the event bubbles up through all ancesors and all listeners (that do not(!) make use of the useCapture flag) are getting called. (Bubble phase)
 
