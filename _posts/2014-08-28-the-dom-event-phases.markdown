@@ -9,7 +9,7 @@ Browsing [MDN](https://developer.mozilla.org/en/docs/Web/API/EventTarget.addEven
 target.addEventListener(type, listener[, useCapture]); 
 {% endhighlight %}
 
-Turns out, it's to control when a event listener gets called during an event dispatch.
+Turns out, it's to control when an event listener gets called during an event dispatch.
 
 When an event is dispatched on a DOM element, [there are actually three phases](http://www.w3.org/TR/DOM-Level-3-Events/#event-flow). During the first, the capture phase, all listeners (that make use of the useCapture flag) bound to ancestors of the event target are getting called.
 
