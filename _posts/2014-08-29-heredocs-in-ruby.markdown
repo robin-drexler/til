@@ -33,7 +33,7 @@ The cool thing is, you need to escape neither single nor double quotes in a here
 
 ## Ruby
 When starting a here doc in Ruby ```<<TEXT```, it literally means that the string content starts on the next line and ends when ```TEXT``` is the sole content on a line.
-This makes it actually possible to start a here doc and use its contents (which follows beginning the next line) on the same line as it is started.
+This makes it actually possible to start a here doc and have its content (which follows beginning the next line) interpolated at the here doc starting point.
 
 ### Example
 {% highlight ruby %}
