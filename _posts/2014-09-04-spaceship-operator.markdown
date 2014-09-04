@@ -44,4 +44,4 @@ irb(main):006:0>
 {% endhighlight %}
 
 ## PHP implementation
-To learn how to build a [composer](https://getcomposer.org) package, I also came up with a PHP implementation of the spaceship operator (int the form of just a simple class), which can be [found on Github](https://github.com/robin-drexler/spaceship-php).
+To learn how to build a [composer](https://getcomposer.org) package, I also came up with a PHP implementation of the spaceship operator (in the form of just a simple class), which can be [found on Github](https://github.com/robin-drexler/spaceship-php).
